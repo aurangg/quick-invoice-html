@@ -1,0 +1,384 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400;500;600&display=swap');
+body{
+    margin:0 !important;
+    background-color: #f7f8fe !important;
+    font-family:'Karla', sans-serif !important;
+}
+h1, h2, h3, h4, h5, h6, p{
+    margin:0px !important;
+}
+.margin-bottom-20{
+    margin-bottom: 20px !important;
+}
+.heading{
+    margin-top:5vh !important;
+    font-weight: 300;
+    color:#f0616b;
+    text-align: center;
+    letter-spacing: 2px;
+    font-family:'Karla', sans-serif;
+    margin-bottom: 0.5rem !important;
+}
+.box{
+    background-color: #fff;
+    border-radius:5px;
+    -webkit-box-shadow:0px 0px 19px 0px rgba(50, 50, 50, 0.13);
+    -moz-box-shadow:0px 0px 19px 0px rgba(50, 50, 50, 0.13);
+    box-shadow:0px 0px 19px 0px rgba(50, 50, 50, 0.13);
+    padding:25px;
+    margin:5vh 0 !important;
+}
+.box .invoice-detail h5{
+    font-weight: 500;
+    text-align: left;
+    font-size:15px;
+    font-family:'Karla', sans-serif;
+}
+.box .invoice-detail p{
+    color:#979797;
+    font-weight: 500;
+    text-align: left;
+    font-size:12px;
+}
+.box .bill-to{
+    text-align:right;
+}
+.box .bill-to .text{
+    text-align:right;
+    font-weight: 500;
+    font-size: 13px;
+    margin-bottom: 5px !important;
+}
+.box .bill-to .name{
+    text-align:right;
+    font-weight: 300;
+    margin-bottom: 5px !important;
+    font-size: 13px;
+}
+.box .bill-to .email{
+    text-align:right;
+    font-weight: 300;
+    font-size: 13px; 
+    margin-bottom: 5px !important;
+}
+.box .bill-to .phone{
+    text-align:right;
+    font-weight: 300;
+    margin-bottom: 5px !important;
+    font-size: 13px;
+}
+.box .invoice-duration{
+    text-align: left;
+    margin:15px 0px !important;
+}
+.box .invoice-duration .date{
+    text-align:left;
+    font-weight: 600;
+    margin-bottom: 5px !important;
+    font-size: 13px;
+}
+.box .invoice-duration .date span{
+    font-weight: 300;
+    margin-left:5px;
+    font-size: 13px;
+}
+.box .invoice-duration .terms{
+    text-align:left;
+    font-weight: 600;
+    margin-bottom: 5px !important;
+    font-size: 13px;
+}
+.box .invoice-duration .terms span{
+    font-weight: 300;
+    margin-left:5px !important;
+    font-size: 13px;
+}
+.box .invoice-duration .due-date{
+    text-align:left;
+    font-weight: 600;
+    margin-bottom: 5px !important;
+    font-size: 13px;
+}
+.box .invoice-duration .due-date span{
+    font-weight: 300;
+    margin-left:5px !important;
+    font-size: 13px;
+}
+.box .tag{
+    border-top: 1px solid #cfcdcd;
+    border-bottom: 1px solid #cfcdcd;
+    background-color: #fff;
+    padding:10px 0px;
+}
+.box .tag .attribute-left{
+    text-align: left;
+    font-weight: 700;
+    font-size:14px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+.box .tag .attribute-right{
+    text-align: right;
+    font-weight: 700;
+    font-size:14px;
+    text-transform: uppercase;
+    display: inline-block;
+    float:right;
+    margin:0px !important;
+}
+.box .tag-table-row{
+    border-bottom:1px solid #f5f5f5;
+    padding:10px 0px;
+}
+.box .tag-table-row .item-name{
+    text-align: left;
+    display: inline-block;
+    font-weight: 500;
+    font-size:14px;
+}
+.box .tag-table-row .item-price{
+    display: inline-block;
+    font-weight: 500;
+    font-size:14px;
+    text-align: right;
+    float:right;
+}
+.box .pricing{
+    padding:15px 0px;
+    text-align: right;
+}
+.box .pricing .pricing-box{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom:5px;
+  }
+.box .pricing .pricing-box .price-name{
+    text-align: right;
+    font-size:14px;
+    width:40%;
+    font-weight: 500;
+}
+.box .pricing .pricing-box .price-quantity{
+    text-align: right;
+    font-size:14px;
+    width:40%;
+    font-weight: 500;
+}
+.box .pricing .pricing-box .total-name{
+    font-weight: 600;
+    font-size: 14px;
+    text-align: right;
+    width:40%;
+  }
+.box .pricing .pricing-box .total-price{
+    font-weight: 600;
+    font-size: 14px;
+    text-align: right;
+    width:40%;
+}
+.box .tag .total-box{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: baseline;
+}
+.box .tag .total-box .total-amount{
+    font-size:18px;
+    font-weight: 800;
+    color:#1c1c1c;
+    text-align: right;
+    width:40%;
+    font-size: 20px;
+}
+.box .tag .total-box .total-text{
+    font-weight: 400;
+    color:#1c1c1c;
+    margin-left:10px;
+    text-align: right;
+    font-size:14px;
+    width:40%;
+}
+.download-btn{
+    text-align: center;
+    padding-top: 15px;
+    color:green;
+    font-weight: 400;
+    transition: 0.3s;
+}
+.download-btn:hover{
+    color:green;
+    font-weight: 800;
+    cursor:pointer;
+}
+.line{
+    height:1px;
+    width:100%;
+    background-color: #6d6d6d;
+    opacity: 0.2;
+   }
+   .amount-layout{
+     margin:5vh 0 !important;
+     height:90vh;
+     /* display: flex;
+     flex-direction: column;
+     justify-content: center; */
+   }
+   .amount-layout .header-text{
+     color:#6d6d6d;
+     font-weight: 400;
+     text-transform: uppercase;
+     letter-spacing: 2px;
+     font-size:14px;
+     text-align: left;
+     margin-bottom:5px !important;
+     font-family:'Karla', sans-serif;
+   }
+   .amount-layout .amount-box{
+     background-color: #fff;
+     border-radius:5px;
+     -webkit-box-shadow:0px 0px 19px 0px rgba(50, 50, 50, 0.13);
+     -moz-box-shadow:0px 0px 19px 0px rgba(50, 50, 50, 0.13);
+     box-shadow:0px 0px 19px 0px rgba(50, 50, 50, 0.13);
+     padding:20px;
+     margin:15px 0px 20px 0px !important;
+   }
+   .amount-layout .amount-box .amount-big{
+     text-align: center;
+     color:#1c1c1c;
+     font-weight: 800;
+     margin-bottom:15px !important;
+     font-family:'Karla', sans-serif;
+   }
+   .padding-25{
+     padding:25px !important;
+   }
+   .amount-layout .amount-box .amount-date{
+     text-align: center;
+     font-size:15px;
+     color:#979797;
+     font-weight: 500;
+     margin:0;
+   }
+   
+   .amount-layout .amount-box .tip-text{
+     color:#1c1c1c;
+     font-weight: 800;
+     text-align: left;
+     margin:0;
+     display: inline-block;
+     font-size:14px;
+   }
+   .amount-layout .amount-box .tip-amount{
+     color:#1c1c1c;
+     font-weight: 600;
+     text-align: right;
+     display: inline-block;
+     float:right;
+     font-size:16px;
+   }
+   .amount-layout .footer-text{
+     margin-top:15px;
+     display: flex;
+     flex-direction: row-reverse;
+     align-items: baseline;
+   }
+   .amount-layout .footer-text .basic-text {
+     font-size: 13px;
+     color:#1c1c1c;
+     text-align: right;
+     font-weight: 500;
+   }
+   .amount-layout .footer-text .amount-with-tip{
+     font-size: 14px;
+     color:#1c1c1c;
+     text-align: right;
+     font-weight: 700;
+     margin-left:10px !important;
+   }
+   .margin-top-20{
+     margin-top:20px !important;
+   }
+   .amount-layout .amount-box .paypal{
+     margin-bottom:20px !important;
+   }
+   .amount-layout .amount-box .paypal .paypal-heading{
+     color:#1c1c1c;
+     font-weight: 800;
+     text-align: left;
+     margin:0;
+     display: inline-block;
+     font-size:15px;
+   }
+   .amount-layout .amount-box .paypal .paypal-container{
+     width:auto;
+     padding:0px 5px;
+     border:0.5px solid #ebebeb;
+     text-align: center;
+     display: inline-block;
+     margin-left:5px !important;
+   }
+   .amount-layout .amount-box .paypal .paypal-logo{
+     height:12px;
+     width:12px;
+     margin-top:-2px !important;
+   }
+   .amount-layout .amount-box .paypal-button{
+     width:100%;
+     border-radius:5px;
+     text-align:center;
+     padding:8px 0px;
+     background-color: #ffc416;
+     margin-bottom:40px !important;
+   }
+   .amount-layout .amount-box .paypal-button .paypal-logo-big{
+     height:20px;
+     width:auto;
+   }
+   .amount-layout .amount-box .encryption{
+     font-size:12px;
+     text-align:center;
+     margin-bottom:20px !important;
+   }
+   .amount-layout .amount-box .policy{
+     text-align: center;
+     font-size:13px;
+   }
+   .amount-layout .amount-box .span-policy{
+     color:#12c1fe;
+     text-decoration: underline;
+     font-size:14px;
+     cursor: pointer;
+   }
+   
+   @media (max-width:400px){
+     .box .tag .attribute-left{
+       font-size: 11px;
+     }
+     .box .tag .attribute-right{
+       font-size: 11px;
+       line-height: 2.2;
+     }
+     .box .pricing .pricing-box .price-name{
+       font-size:12px;
+       width:50%;
+     }
+     .box .pricing .pricing-box .price-quantity{
+       font-size:12px;
+       width:50%;
+     }
+     .box .pricing .pricing-box .total-price{
+       font-size:12px;
+       width:50%;
+     }
+     .box .pricing .pricing-box .total-name{
+       font-size:12px;
+       width:50%;
+     }
+     .box .tag .total-box .total-text{
+       font-size:13px;
+       width:50%;
+     }
+     .box .tag .total-box .total-amount{
+       font-size:16px;
+       width:50%;
+     }
+   }
